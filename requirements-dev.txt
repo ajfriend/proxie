@@ -1,0 +1,4 @@
+jupyterlab
+pytest
+pytest-cov
+jupyter-book

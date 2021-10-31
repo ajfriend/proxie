@@ -10,8 +10,8 @@ open:
 env:
 	python -m venv env
 	env/bin/pip install --upgrade pip wheel setuptools
-	env/bin/pip install -r requirements.txt
 	env/bin/pip install -e .
+	env/bin/pip install -r requirements-dev.txt
 	make test
 
 lab:
