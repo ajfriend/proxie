@@ -29,4 +29,6 @@ jobs:
           pip install .
 
       - name: Tests
-        run: pytest --cov=proxie --full-trace
+        run: |
+          pip install requirements-dev.txt
+          pytest --cov=proxie --full-trace
