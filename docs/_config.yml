@@ -1,0 +1,33 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: proxie
+author: AJ Friend
+
+repository:
+  url: https://github.com/executablebooks/jupyter-book
+  path_to_book: docs
+  branch: master
+
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: true
+
+sphinx:
+  extra_extensions:
+    - 'sphinx.ext.autodoc'
+    - 'sphinx.ext.autosummary'
+    - 'sphinx.ext.napoleon'
+    - 'sphinx.ext.viewcode'
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - deflist
+    - dollarmath
+    - linkify
+
+execute:
+  execute_notebooks: 'off'

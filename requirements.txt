@@ -1,0 +1,11 @@
+jupyterlab
+
+numpy
+scipy
+matplotlib
+
+cvxpy
+
+pytest
+pytest-cov
+jupyter-book
